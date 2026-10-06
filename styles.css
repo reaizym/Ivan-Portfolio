@@ -125,6 +125,15 @@ p { margin: 0 0 1rem; }
   margin-bottom: 0.75rem;
 }
 
+.site-note {
+  margin: 0 0 1rem;
+  font-family: var(--heading);
+  font-size: clamp(1rem, 1.8vw, 1.35rem);
+  font-weight: 700;
+  color: rgba(43, 27, 18, 0.8);
+  max-width: 27rem;
+}
+
 .role {
   font-family: var(--heading);
   font-weight: 700;
